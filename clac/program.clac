@@ -1,0 +1,4 @@
+: rec dup square 3 pick < if 1 + rec ;
+: sqrt 1 + 0 rec 1 - swap drop ;
+: dup 1 pick ;
+: square dup * ;
